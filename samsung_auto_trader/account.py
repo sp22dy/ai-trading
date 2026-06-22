@@ -28,7 +28,7 @@ class AccountService:
             "INQR_DVSN": "01",              # 01: By loan date (standard) or 02: By stock
             "UNPR_DVSN": "01",              # 01: Average unit price
             "FUND_STTL_ICLD_YN": "N",       # N: Exclude fund settlement
-            "FNCG_AMT_AUTO_EXTN_YN": "N",   # N: Exclude auto credit extension
+            "FNCG_AMT_AUTO_RDPT_YN": "N",   # N: Exclude auto credit repayment (FNCG_AMT_AUTO_RDPT_YN)
             "PRCS_DVSN": "00",              # 00: Standard process
             "CTX_AREA_FK100": "",           # Blank for first page
             "CTX_AREA_NK100": ""            # Blank for first page
