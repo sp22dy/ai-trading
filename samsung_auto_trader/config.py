@@ -27,7 +27,7 @@ class Config:
 
     # Trading Window Settings
     TRADING_WINDOW_START: str = "09:10"  # HH:MM
-    TRADING_WINDOW_END: str = "15:30"    # HH:MM
+    TRADING_WINDOW_END: str = "21:30"    # HH:MM
 
     # Cache File Path
     TOKEN_CACHE_FILE: str = "token_cache.json"
