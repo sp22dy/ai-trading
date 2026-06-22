@@ -1,5 +1,10 @@
+import os
 import sys
 import traceback
+
+# Add the parent directory of this script to sys.path to resolve package imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from samsung_auto_trader.config import Config, ConfigError
 from samsung_auto_trader.logger import logger
 from samsung_auto_trader.trader import Trader
